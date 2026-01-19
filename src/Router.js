@@ -10,21 +10,20 @@ import PolicyPurchase from "./Product/PolicyPurchase.vue";
 import AuthenticityPage from "./Product/AuthenticityPage.vue";
 import ProductDetail from "./components/ProductDetail.vue";
 import { createRouter, createWebHistory } from "vue-router";
-import { url } from "./config.js";
 
 const routes = [
   { path: "/", component: Home },
-  { path: url + "/Product", component: Product, name: "Product" },
+  { path: "/Product", component: Product, name: "Product" },
   {
-    path: url + "/Product/:id",
+    path: "/Product/:id",
     component: ProductDetail,
     name: "ProductDetail",
   },
-  { path: url + "/Cart", component: Cart, name: "Cart" },
-  { path: url + "/Checkout", component: CheckOut, name: "Checkout" },
-  { path: url + "/Faq", component: Faq, name: "Faq" },
-  { path: url + "/Wishlist", component: WishListPage, name: "Wishlist" },
-  { path: url + "/About", component: AboutUs, name: "About" },
+  { path: "/Cart", component: Cart, name: "Cart" },
+  { path: "/Checkout", component: CheckOut, name: "Checkout" },
+  { path: "/Faq", component: Faq, name: "Faq" },
+  { path: "/Wishlist", component: WishListPage, name: "Wishlist" },
+  { path: "/About", component: AboutUs, name: "About" },
   { path: "/PolicyTerms", component: PolicyPage, name: "PolicyTerms" },
   {
     path: "/PurchasePolicy",
