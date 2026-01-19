@@ -23,7 +23,7 @@
                   <div id="thumb1" class="tab-pane fade show active">
                     <a
                       data-fancybox="single_images"
-                      href="assets/img/product/1/1.jpg"
+                      src="assets/img/product/1/1.jpg"
                       ><img src="assets/img/product/1/1.jpg" alt="product-view"
                     /></a>
                   </div>
@@ -32,7 +32,7 @@
                   <div id="thumb1" class="tab-pane fade show active">
                     <a
                       data-fancybox="single_images"
-                      href="assets/img/product/1/1.jpg"
+                      src="assets/img/product/1/1.jpg"
                       ><img src="assets/img/product/1/1.jpg" alt="product-view"
                     /></a>
                   </div>
@@ -41,7 +41,7 @@
                   <div id="thumb1" class="tab-pane fade show active">
                     <a
                       data-fancybox="single_images"
-                      href="assets/img/product/1/1.jpg"
+                      src="assets/img/product/1/1.jpg"
                       ><img src="assets/img/product/1/1.jpg" alt="product-view"
                     /></a>
                   </div>
