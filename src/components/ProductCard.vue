@@ -11,7 +11,7 @@
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
                   <img
-                    src="/assets/img/product/1/5.jpg"
+                    src="<%= BASE_URL %>assets/img/product/1/5.jpg"
                     alt="Popular_Product"
                   />
                 </a>
@@ -60,7 +60,7 @@
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
                   <img
-                    src="/assets/img/product/1/6.jpg"
+                    src="<%= BASE_URL %>assets/img/product/1/6.jpg"
                     alt="Popular_Product"
                   />
                 </a>
@@ -110,7 +110,7 @@
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
                   <img
-                    src="/assets/img/product/1/1.jpg"
+                    src="<%= BASE_URL %>assets/img/product/1/1.jpg"
                     alt="Popular_Product"
                   />
                 </a>
@@ -161,7 +161,7 @@
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
                   <img
-                    src="/assets/img/product/1/2.jpg"
+                    src="<%= BASE_URL %>assets/img/product/1/2.jpg"
                     alt="Popular_Product"
                   />
                 </a>
@@ -209,7 +209,7 @@
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
                   <img
-                    src="/assets/img/product/1/3.jpg"
+                    src="<%= BASE_URL %>assets/img/product/1/3.jpg"
                     alt="Popular_Product"
                   />
                 </a>
@@ -259,7 +259,7 @@
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
                   <img
-                    src="/assets/img/product/1/4.jpg"
+                    src="<%= BASE_URL %>assets/img/product/1/4.jpg"
                     alt="Popular_Product"
                   />
                 </a>
@@ -314,7 +314,7 @@
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
                   <img
-                    src="/assets/img/product/1/2.jpg"
+                    src="<%= BASE_URL %>assets/img/product/1/2.jpg"
                     alt="Popular_Product"
                   />
                 </a>
@@ -362,7 +362,7 @@
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
                   <img
-                    src="/assets/img/product/1/5.jpg"
+                    src="<%= BASE_URL %>assets/img/product/1/5.jpg"
                     alt="Popular_Product"
                   />
                 </a>
@@ -411,7 +411,7 @@
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
                   <img
-                    src="/assets/img/product/1/6.jpg"
+                    src="<%= BASE_URL %>assets/img/product/1/6.jpg"
                     alt="Popular_Product"
                   />
                 </a>
@@ -461,7 +461,7 @@
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
                   <img
-                    src="/assets/img/product/1/1.jpg"
+                    src="<%= BASE_URL %>assets/img/product/1/1.jpg"
                     alt="Popular_Product"
                   />
                 </a>
@@ -513,7 +513,7 @@
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
                   <img
-                    src="/assets/img/product/1/3.jpg"
+                    src="<%= BASE_URL %>assets/img/product/1/3.jpg"
                     alt="Popular_Product"
                   />
                 </a>
@@ -563,7 +563,7 @@
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
                   <img
-                    src="/assets/img/product/1/4.jpg"
+                    src="<%= BASE_URL %>assets/img/product/1/4.jpg"
                     alt="Popular_Product"
                   />
                 </a>

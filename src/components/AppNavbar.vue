@@ -47,12 +47,15 @@
           <div class="header-inner">
             <div class="logo default_logo">
               <a href="/">
-                <img src="/assets/img/logo/logo.png" alt="logo" />
+                <img src="<%= BASE_URL %>assets/img/logo/logo.png" alt="logo" />
               </a>
             </div>
             <div class="logo sticky_logo">
               <a href="/">
-                <img src="/assets/img/logo/logo-sticky.png" alt="Sticky logo" />
+                <img
+                  src="<%= BASE_URL %>assets/img/logo/logo-sticky.png"
+                  alt="Sticky logo"
+                />
               </a>
             </div>
 
@@ -100,7 +103,10 @@
       <div class="container d-block d-lg-none">
         <div class="mobile-menu clearfix mean-container">
           <a class="mobile-logo" href="/">
-            <img src="/assets/img/logo/logo-sticky.png" alt="mobile logo" />
+            <img
+              src="<%= BASE_URL %>assets/img/logo/logo-sticky.png"
+              alt="mobile logo"
+            />
           </a>
         </div>
       </div>
@@ -271,11 +277,11 @@ export default {
         // remove any previous instances to avoid duplicate controls
         $(".mean-bar, .mean-push, .mean-nav").remove();
         $(
-          ".header-style-1 nav.menu, .header-style-2 nav.menu, .header-style-3 nav.menu"
+          ".header-style-1 nav.menu, .header-style-2 nav.menu, .header-style-3 nav.menu",
         ).show();
 
         $(
-          ".header-style-1 nav.menu, .header-style-2 nav.menu, .header-style-3 nav.menu"
+          ".header-style-1 nav.menu, .header-style-2 nav.menu, .header-style-3 nav.menu",
         ).meanmenu({
           meanMenuClose: '<i class="icofont icofont-close"></i>',
           meanMenuCloseSize: "18px",
@@ -291,7 +297,7 @@ export default {
       if (!$) return;
       $(".mean-bar, .mean-push, .mean-nav").remove();
       $(
-        ".header-style-1 nav.menu, .header-style-2 nav.menu, .header-style-3 nav.menu"
+        ".header-style-1 nav.menu, .header-style-2 nav.menu, .header-style-3 nav.menu",
       ).show();
     },
     handleMeanResize() {

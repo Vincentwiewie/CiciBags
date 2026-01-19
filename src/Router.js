@@ -7,12 +7,14 @@ import WishListPage from "./Product/WishListPage.vue";
 import AboutUs from "./Product/AboutUs.vue";
 import PolicyPage from "./Product/PolicyPage.vue";
 import PolicyPurchase from "./Product/PolicyPurchase.vue";
-import { createRouter, createWebHistory } from "vue-router";
 import AuthenticityPage from "./Product/AuthenticityPage.vue";
+import ProductDetail from "./components/ProductDetail.vue";
+import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   { path: "/", component: Home },
   { path: "/Product", component: Product },
+  { path: "/Product/:id", component: ProductDetail },
   { path: "/Cart", component: Cart },
   { path: "/Checkout", component: CheckOut },
   { path: "/Faq", component: Faq },

@@ -212,7 +212,10 @@
     <!-- Single Banner Start -->
     <div class="sidebar-banner">
       <a href="shop.html"
-        ><img class="ful" src="/assets/img/banner/portrait-1.png" alt=""
+        ><img
+          class="ful"
+          src="<%= BASE_URL %>assets/img/banner/portrait-1.png"
+          alt=""
       /></a>
     </div>
     <!-- Single Banner End -->
