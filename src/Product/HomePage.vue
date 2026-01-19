@@ -29,7 +29,9 @@
                   Aliquid atque, odio nostrum inventore repellat.
                 </p>
                 <div class="slider_btn_box">
-                  <a href="/Product" class="readmore-btn sgs">Shop Now</a>
+                  <router-link to="/Product" class="readmore-btn sgs"
+                    >Shop Now</router-link
+                  >
                 </div>
               </div>
             </div>
@@ -154,7 +156,9 @@
                 <li>Good Quality Products</li>
               </ul>
               <div class="lode-more-course wow fadeInUp">
-                <a href="/Product" class="readmore-btn">Shop Now </a>
+                <router-link to="/Product" class="readmore-btn"
+                  >Shop Now
+                </router-link>
               </div>
             </div>
           </div>

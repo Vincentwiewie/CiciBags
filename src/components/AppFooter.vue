@@ -47,7 +47,7 @@
                 <h5 class="footer-widget-title">CiciBags</h5>
                 <ul>
                   <li v-for="item in QuickLink" :key="item">
-                    <a :href="item.Url">{{ item.Name }}</a>
+                    <router-link :to="item.Url">{{ item.Name }}</router-link>
                   </li>
                 </ul>
               </div>
@@ -60,7 +60,7 @@
                 <h5 class="footer-widget-title">Information</h5>
                 <ul>
                   <li v-for="item in Information" :key="item">
-                    <a :href="item.Url">{{ item.Name }}</a>
+                    <router-link :to="item.Url">{{ item.Name }}</router-link>
                   </li>
                 </ul>
               </div>
@@ -82,7 +82,9 @@
                       margin-bottom: 5px;
                     "
                   >
-                    <a :href="item.Url" class="text-black">{{ item.Name }}</a>
+                    <router-link :to="item.Url" class="text-black">{{
+                      item.Name
+                    }}</router-link>
                   </li>
                 </ul>
                 <h5 class="footer-widget-title mt-3">Payments</h5>

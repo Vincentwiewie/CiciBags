@@ -21,15 +21,19 @@
         <div class="col-lg-5 col-md-7 col-sm-7 col-xs-12 col-12">
           <div class="top-bar-right">
             <div class="content">
-              <a href="/Login"
-                ><i class="icofont icofont-login"></i> My Account</a
+              <router-link to="/Login"
+                ><i class="icofont icofont-login"></i> My Account</router-link
               >
             </div>
             <div class="content">
-              <a href="/Wishlist"><i class="icofont-heart-alt"></i> Wishlist</a>
+              <router-link to="/Wishlist"
+                ><i class="icofont-heart-alt"></i> Wishlist</router-link
+              >
             </div>
             <div class="content">
-              <a href="/Checkout"><i class="icofont-cart"></i> Cart</a>
+              <router-link to="/Cart"
+                ><i class="icofont-cart"></i> Cart</router-link
+              >
             </div>
           </div>
         </div>
@@ -46,14 +50,14 @@
         <div class="col-lg-12">
           <div class="header-inner">
             <div class="logo default_logo">
-              <a href="/">
+              <router-link to="/">
                 <img src="assets/img/logo/logo.png" alt="logo" />
-              </a>
+              </router-link>
             </div>
             <div class="logo sticky_logo">
-              <a href="/">
+              <router-link to="/">
                 <img src="assets/img/logo/logo-sticky.png" alt="Sticky logo" />
-              </a>
+              </router-link>
             </div>
 
             <nav class="menu">
@@ -99,9 +103,9 @@
     <div class="mobile-menu-wrapper">
       <div class="container d-block d-lg-none">
         <div class="mobile-menu clearfix mean-container">
-          <a class="mobile-logo" href="/">
+          <router-link class="mobile-logo" to="/">
             <img src="assets/img/logo/logo-sticky.png" alt="mobile logo" />
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
