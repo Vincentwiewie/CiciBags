@@ -9,7 +9,7 @@ import PolicyPage from "./Product/PolicyPage.vue";
 import PolicyPurchase from "./Product/PolicyPurchase.vue";
 import AuthenticityPage from "./Product/AuthenticityPage.vue";
 import ProductDetail from "./components/ProductDetail.vue";
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 
 const routes = [
   { path: "/", component: Home },
@@ -29,10 +29,8 @@ const routes = [
   { path: "/Authenticity", component: AuthenticityPage, name: "Authenticity" },
 ];
 
-const base = process.env.NODE_ENV === "production" ? "/CiciBags/" : "/";
-
 const router = createRouter({
-  history: createWebHistory(base),
+  history: createWebHashHistory(),
   routes,
 });
 
