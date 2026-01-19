@@ -25,8 +25,10 @@ const routes = [
   { path: "/Authenticity", component: AuthenticityPage },
 ];
 
+const base = process.env.NODE_ENV === "production" ? "/CiciBags/" : "/";
+
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(base),
   routes,
 });
 
