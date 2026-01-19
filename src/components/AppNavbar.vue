@@ -100,10 +100,7 @@
       <div class="container d-block d-lg-none">
         <div class="mobile-menu clearfix mean-container">
           <a class="mobile-logo" href="/">
-            <img
-              src="<%= BASE_URL %>assets/img/logo/logo-sticky.png"
-              alt="mobile logo"
-            />
+            <img src="assets/img/logo/logo-sticky.png" alt="mobile logo" />
           </a>
         </div>
       </div>
