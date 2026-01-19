@@ -8,7 +8,8 @@ on:
     branches: ["main"]
   pull_request:
     branches: ["main"]
-
+env:
+  NODE_ENV: "production"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,7 +26,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
-      - run: EXPORT NODE_ENV=production
       - run: npm ci
       - run: npm run build --if-present
       - name: Deploy to Github Pages
