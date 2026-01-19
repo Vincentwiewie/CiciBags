@@ -39,8 +39,8 @@
                 <div class="panel panel-checkout">
                   <div class="panel-heading" role="tab" id="headingTwo">
                     <h4 class="panel-title">
-                      <img src="images/icons/acc.jpg" alt="" /> Returning
-                      customer?
+                      <img src="assets/images/icons/acc.jpg" alt="" />
+                      Returning customer?
                       <a
                         class="collapsed"
                         role="button"
@@ -105,7 +105,8 @@
                 <div class="panel panel-checkout">
                   <div class="panel-heading" role="tab" id="headingThree">
                     <h4 class="panel-title">
-                      <img src="images/icons/acc.jpg" alt="" /> Have A Coupon?
+                      <img src="assets/images/icons/acc.jpg" alt="" /> Have A
+                      Coupon?
                       <a
                         class="collapsed"
                         role="button"

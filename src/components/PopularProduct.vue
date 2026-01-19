@@ -18,7 +18,7 @@
                 <span>New</span>
               </div>
               <a href="product-details.html">
-                <img src="<%= BASE_URL %>assets/img/product/1/1.jpg" alt="" />
+                <img src="assets/img/product/1/1.jpg" alt="" />
               </a>
               <div class="item-action">
                 <a
@@ -67,7 +67,7 @@
                 <span class="disc">25%</span>
               </div>
               <a href="product-details.html">
-                <img src="<%= BASE_URL %>assets/img/product/1/2.jpg" alt="" />
+                <img src="assets/img/product/1/2.jpg" alt="" />
               </a>
               <div class="item-action">
                 <a
@@ -113,7 +113,7 @@
           <div class="item-wrapper">
             <div class="item-img">
               <a href="product-details.html">
-                <img src="<%= BASE_URL %>assets/img/product/1/3.jpg" alt="" />
+                <img src="assets/img/product/1/3.jpg" alt="" />
               </a>
               <div class="item-action">
                 <a
@@ -160,7 +160,7 @@
                 <span>New</span>
               </div>
               <a href="product-details.html">
-                <img src="<%= BASE_URL %>assets/img/product/1/4.jpg" alt="" />
+                <img src="assets/img/product/1/4.jpg" alt="" />
               </a>
               <div class="item-action">
                 <a
@@ -207,7 +207,7 @@
                 <span>New</span>
               </div>
               <a href="product-details.html">
-                <img src="<%= BASE_URL %>assets/img/product/1/1.jpg" alt="" />
+                <img src="assets/img/product/1/1.jpg" alt="" />
               </a>
               <div class="item-action">
                 <a

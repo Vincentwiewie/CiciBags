@@ -47,15 +47,12 @@
           <div class="header-inner">
             <div class="logo default_logo">
               <a href="/">
-                <img src="<%= BASE_URL %>assets/img/logo/logo.png" alt="logo" />
+                <img src="assets/img/logo/logo.png" alt="logo" />
               </a>
             </div>
             <div class="logo sticky_logo">
               <a href="/">
-                <img
-                  src="<%= BASE_URL %>assets/img/logo/logo-sticky.png"
-                  alt="Sticky logo"
-                />
+                <img src="assets/img/logo/logo-sticky.png" alt="Sticky logo" />
               </a>
             </div>
 

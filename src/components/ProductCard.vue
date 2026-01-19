@@ -10,10 +10,7 @@
             <ul class="feature_ctg_active">
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
-                  <img
-                    src="<%= BASE_URL %>assets/img/product/1/5.jpg"
-                    alt="Popular_Product"
-                  />
+                  <img src="assets/img/product/1/5.jpg" alt="Popular_Product" />
                 </a>
 
                 <div class="popular-course-widget-content">
@@ -59,10 +56,7 @@
               </li>
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
-                  <img
-                    src="<%= BASE_URL %>assets/img/product/1/6.jpg"
-                    alt="Popular_Product"
-                  />
+                  <img src="assets/img/product/1/6.jpg" alt="Popular_Product" />
                 </a>
 
                 <div class="popular-course-widget-content">
@@ -109,10 +103,7 @@
               </li>
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
-                  <img
-                    src="<%= BASE_URL %>assets/img/product/1/1.jpg"
-                    alt="Popular_Product"
-                  />
+                  <img src="assets/img/product/1/1.jpg" alt="Popular_Product" />
                 </a>
 
                 <div class="popular-course-widget-content">
@@ -160,10 +151,7 @@
               </li>
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
-                  <img
-                    src="<%= BASE_URL %>assets/img/product/1/2.jpg"
-                    alt="Popular_Product"
-                  />
+                  <img src="assets/img/product/1/2.jpg" alt="Popular_Product" />
                 </a>
 
                 <div class="popular-course-widget-content">
@@ -208,10 +196,7 @@
               </li>
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
-                  <img
-                    src="<%= BASE_URL %>assets/img/product/1/3.jpg"
-                    alt="Popular_Product"
-                  />
+                  <img src="assets/img/product/1/3.jpg" alt="Popular_Product" />
                 </a>
 
                 <div class="popular-course-widget-content">
@@ -258,10 +243,7 @@
               </li>
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
-                  <img
-                    src="<%= BASE_URL %>assets/img/product/1/4.jpg"
-                    alt="Popular_Product"
-                  />
+                  <img src="assets/img/product/1/4.jpg" alt="Popular_Product" />
                 </a>
 
                 <div class="popular-course-widget-content">
@@ -313,10 +295,7 @@
             <ul class="feature_ctg_active">
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
-                  <img
-                    src="<%= BASE_URL %>assets/img/product/1/2.jpg"
-                    alt="Popular_Product"
-                  />
+                  <img src="assets/img/product/1/2.jpg" alt="Popular_Product" />
                 </a>
 
                 <div class="popular-course-widget-content">
@@ -361,10 +340,7 @@
               </li>
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
-                  <img
-                    src="<%= BASE_URL %>assets/img/product/1/5.jpg"
-                    alt="Popular_Product"
-                  />
+                  <img src="assets/img/product/1/5.jpg" alt="Popular_Product" />
                 </a>
 
                 <div class="popular-course-widget-content">
@@ -410,10 +386,7 @@
               </li>
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
-                  <img
-                    src="<%= BASE_URL %>assets/img/product/1/6.jpg"
-                    alt="Popular_Product"
-                  />
+                  <img src="assets/img/product/1/6.jpg" alt="Popular_Product" />
                 </a>
 
                 <div class="popular-course-widget-content">
@@ -460,10 +433,7 @@
               </li>
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
-                  <img
-                    src="<%= BASE_URL %>assets/img/product/1/1.jpg"
-                    alt="Popular_Product"
-                  />
+                  <img src="assets/img/product/1/1.jpg" alt="Popular_Product" />
                 </a>
 
                 <div class="popular-course-widget-content">
@@ -512,10 +482,7 @@
 
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
-                  <img
-                    src="<%= BASE_URL %>assets/img/product/1/3.jpg"
-                    alt="Popular_Product"
-                  />
+                  <img src="assets/img/product/1/3.jpg" alt="Popular_Product" />
                 </a>
 
                 <div class="popular-course-widget-content">
@@ -562,10 +529,7 @@
               </li>
               <li>
                 <a href="product-details.html" class="popular-course-thumb">
-                  <img
-                    src="<%= BASE_URL %>assets/img/product/1/4.jpg"
-                    alt="Popular_Product"
-                  />
+                  <img src="assets/img/product/1/4.jpg" alt="Popular_Product" />
                 </a>
 
                 <div class="popular-course-widget-content">

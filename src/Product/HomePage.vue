@@ -14,7 +14,7 @@
       v-for="(slide, slideIndex) in slideshow"
       :key="slideIndex"
       :style="{
-        backgroundImage: 'url(<%= BASE_URL %>assets/img/' + slide.image + ')',
+        backgroundImage: 'url(assets/img/' + slide.image + ')',
       }"
     >
       <div class="single-slider image-bg">
@@ -78,7 +78,7 @@
                   <span>New</span>
                 </div>
                 <a href="product-details.html">
-                  <img src="<%= BASE_URL %>assets/img/team/team1.jpg" alt="" />
+                  <img src="assets/img/team/team1.jpg" alt="" />
                 </a>
               </div>
             </div>
@@ -90,7 +90,7 @@
                   <span>New</span>
                 </div>
                 <a href="product-details.html">
-                  <img src="<%= BASE_URL %>assets/img/team/team1.jpg" alt="" />
+                  <img src="assets/img/team/team1.jpg" alt="" />
                 </a>
               </div>
             </div>
@@ -102,7 +102,7 @@
                   <span>New</span>
                 </div>
                 <a href="product-details.html">
-                  <img src="<%= BASE_URL %>assets/img/team/team1.jpg" alt="" />
+                  <img src="assets/img/team/team1.jpg" alt="" />
                 </a>
               </div>
             </div>
@@ -114,7 +114,7 @@
                   <span>New</span>
                 </div>
                 <a href="product-details.html">
-                  <img src="<%= BASE_URL %>assets/img/team/team1.jpg" alt="" />
+                  <img src="assets/img/team/team1.jpg" alt="" />
                 </a>
               </div>
             </div>
@@ -132,7 +132,7 @@
       <div class="starting-about-thumb">
         <img
           class="wow fadeInLeft"
-          src="<%= BASE_URL %>assets/img/about/1.png"
+          src="assets/img/about/1.png"
           alt="about thumb"
         />
       </div>
@@ -212,25 +212,25 @@ export default {
       ],
       service: [
         {
-          img: "<%= BASE_URL %>assets/img/icons/truck.png",
+          img: "assets/img/icons/truck.png",
           title: "Free shipping item",
           desc: "For all orders over $500",
           alt: "Service Icon",
         },
         {
-          img: "<%= BASE_URL %>assets/img/icons/refund.png",
+          img: "assets/img/icons/refund.png",
           title: "Money back guarantee",
           desc: "100% Money back guarantee",
           alt: "Service Icon",
         },
         {
-          img: "<%= BASE_URL %>assets/img/icons/cash.png",
+          img: "assets/img/icons/cash.png",
           title: "Cash on delivery",
           desc: "For all orders over $500",
           alt: "Service Icon",
         },
         {
-          img: "<%= BASE_URL %>assets/img/icons/support.png",
+          img: "assets/img/icons/support.png",
           title: "Help & Support",
           desc: "Call us : +6287834323337",
           alt: "Service Icon",

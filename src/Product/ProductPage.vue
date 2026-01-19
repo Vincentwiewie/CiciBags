@@ -41,7 +41,7 @@ export default {
       // Region Data
       Product: [
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",
@@ -49,7 +49,7 @@ export default {
           actualPrice: 35.0,
         },
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",
@@ -57,7 +57,7 @@ export default {
           actualPrice: 35.0,
         },
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",
@@ -65,7 +65,7 @@ export default {
           actualPrice: 35.0,
         },
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",
@@ -73,7 +73,7 @@ export default {
           actualPrice: 35.0,
         },
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",
@@ -81,7 +81,7 @@ export default {
           actualPrice: 35.0,
         },
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",
@@ -89,7 +89,7 @@ export default {
           actualPrice: 35.0,
         },
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",
@@ -97,7 +97,7 @@ export default {
           actualPrice: 35.0,
         },
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",
@@ -105,7 +105,7 @@ export default {
           actualPrice: 35.0,
         },
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",
@@ -113,7 +113,7 @@ export default {
           actualPrice: 35.0,
         },
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",
@@ -121,7 +121,7 @@ export default {
           actualPrice: 35.0,
         },
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",
@@ -129,7 +129,7 @@ export default {
           actualPrice: 35.0,
         },
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",
@@ -137,7 +137,7 @@ export default {
           actualPrice: 35.0,
         },
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",
@@ -145,7 +145,7 @@ export default {
           actualPrice: 35.0,
         },
         {
-          image: "<%= BASE_URL %>assets/img/product/1/5.jpg",
+          image: "assets/img/product/1/5.jpg",
           alt: "",
           price: 20.0,
           name: "Brilliance Bead Alternating",

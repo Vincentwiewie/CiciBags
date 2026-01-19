@@ -19,10 +19,7 @@
           <article class="post single-post">
             <div class="post-thumb">
               <a href="blog-details.html">
-                <img
-                  src="<%= BASE_URL %>assets/img/post/1.jpg"
-                  alt="post thumb"
-                />
+                <img src="assets/img/post/1.jpg" alt="post thumb" />
               </a>
               <div class="post-date">Feb 17, 2022</div>
             </div>
@@ -52,10 +49,7 @@
           <article class="post single-post">
             <div class="post-thumb">
               <a href="blog-details.html">
-                <img
-                  src="<%= BASE_URL %>assets/img/post/2.jpg"
-                  alt="post thumb"
-                />
+                <img src="assets/img/post/2.jpg" alt="post thumb" />
               </a>
               <div class="post-date">July 20, 2022</div>
             </div>
@@ -85,10 +79,7 @@
           <article class="post single-post">
             <div class="post-thumb">
               <a href="blog-details.html">
-                <img
-                  src="<%= BASE_URL %>assets/img/post/3.jpg"
-                  alt="post thumb"
-                />
+                <img src="assets/img/post/3.jpg" alt="post thumb" />
               </a>
               <div class="post-date">Jan 09, 2022</div>
             </div>
@@ -118,10 +109,7 @@
           <article class="post single-post">
             <div class="post-thumb">
               <a href="blog-details.html">
-                <img
-                  src="<%= BASE_URL %>assets/img/post/4.jpg"
-                  alt="post thumb"
-                />
+                <img src="assets/img/post/4.jpg" alt="post thumb" />
               </a>
               <div class="post-date">Feb 17, 2022</div>
             </div>
@@ -151,10 +139,7 @@
           <article class="post single-post">
             <div class="post-thumb">
               <a href="blog-details.html">
-                <img
-                  src="<%= BASE_URL %>assets/img/post/6.jpg"
-                  alt="post thumb"
-                />
+                <img src="assets/img/post/6.jpg" alt="post thumb" />
               </a>
               <div class="post-date">July 20, 2022</div>
             </div>
@@ -184,10 +169,7 @@
           <article class="post single-post">
             <div class="post-thumb">
               <a href="blog-details.html">
-                <img
-                  src="<%= BASE_URL %>assets/img/post/7.jpg"
-                  alt="post thumb"
-                />
+                <img src="assets/img/post/7.jpg" alt="post thumb" />
               </a>
               <div class="post-date">Jan 09, 2022</div>
             </div>

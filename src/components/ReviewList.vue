@@ -22,7 +22,7 @@
           <div class="testimonial text-center">
             <div class="testimonial-thumb">
               <img
-                src="<%= BASE_URL %>assets/img/testi/testimonial2.jpg"
+                src="assets/img/testi/testimonial2.jpg"
                 alt="testimonial author"
               />
             </div>

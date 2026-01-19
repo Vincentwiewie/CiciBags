@@ -88,34 +88,22 @@
                 <h5 class="footer-widget-title mt-3">Payments</h5>
                 <ul>
                   <li class="payments">
-                    <img
-                      src="<%= BASE_URL %>assets/img/payment/visa.png"
-                      alt="Visa"
-                    />
+                    <img src="assets/img/payment/visa.png" alt="Visa" />
                   </li>
                   <li class="payments">
                     <img
-                      src="<%= BASE_URL %>assets/img/payment/master-card.png"
+                      src="assets/img/payment/master-card.png"
                       alt="Master Card"
                     />
                   </li>
                   <li class="payments">
-                    <img
-                      src="<%= BASE_URL %>assets/img/payment/bca.png"
-                      alt="Bca"
-                    />
+                    <img src="assets/img/payment/bca.png" alt="Bca" />
                   </li>
                   <li class="payments">
-                    <img
-                      src="<%= BASE_URL %>assets/img/payment/mandiri.png"
-                      alt="Mandiri"
-                    />
+                    <img src="assets/img/payment/mandiri.png" alt="Mandiri" />
                   </li>
                   <li class="payments">
-                    <img
-                      src="<%= BASE_URL %>assets/img/payment/bni.png"
-                      alt="Bni"
-                    />
+                    <img src="assets/img/payment/bni.png" alt="Bni" />
                   </li>
                 </ul>
               </div>

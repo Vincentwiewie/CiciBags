@@ -21,7 +21,9 @@
                   <tbody>
                     <tr class="cart_item">
                       <td class="item-img">
-                        <a href="#"><img src="img/product/1.jpg" alt="" /> </a>
+                        <a href="#"
+                          ><img src="/assets/img/product/1.jpg" alt="" />
+                        </a>
                       </td>
                       <td class="item-title">
                         <a href="#">Fusce Laoreet Volutpat </a>
@@ -37,7 +39,9 @@
                     </tr>
                     <tr class="cart_item">
                       <td class="item-img">
-                        <a href="#"><img src="img/product/2.jpg" alt="" /> </a>
+                        <a href="#"
+                          ><img src="/assets/img/product/2.jpg" alt="" />
+                        </a>
                       </td>
                       <td class="item-title">
                         <a href="#">Fusce Laoreet Volutpat </a>
