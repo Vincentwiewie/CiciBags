@@ -79,9 +79,11 @@
                 <div class="offer-tag">
                   <span>New</span>
                 </div>
-                <a href="product-details.html">
-                  <img src="assets/img/team/team1.jpg" alt="" />
-                </a>
+                <router-link to="/">
+                  <a href="product-details.html">
+                    <img src="assets/img/team/team1.jpg" alt="" />
+                  </a>
+                </router-link>
               </div>
             </div>
           </div>
@@ -91,9 +93,11 @@
                 <div class="offer-tag">
                   <span>New</span>
                 </div>
-                <a href="product-details.html">
-                  <img src="assets/img/team/team1.jpg" alt="" />
-                </a>
+                <router-link to="/">
+                  <a href="product-details.html">
+                    <img src="assets/img/team/team1.jpg" alt="" />
+                  </a>
+                </router-link>
               </div>
             </div>
           </div>
@@ -103,9 +107,11 @@
                 <div class="offer-tag">
                   <span>New</span>
                 </div>
-                <a href="product-details.html">
-                  <img src="assets/img/team/team1.jpg" alt="" />
-                </a>
+                <router-link to="/">
+                  <a href="product-details.html">
+                    <img src="assets/img/team/team1.jpg" alt="" />
+                  </a>
+                </router-link>
               </div>
             </div>
           </div>
@@ -115,9 +121,11 @@
                 <div class="offer-tag">
                   <span>New</span>
                 </div>
-                <a href="product-details.html">
-                  <img src="assets/img/team/team1.jpg" alt="" />
-                </a>
+                <router-link to="/">
+                  <a href="product-details.html">
+                    <img src="assets/img/team/team1.jpg" alt="" />
+                  </a>
+                </router-link>
               </div>
             </div>
           </div>

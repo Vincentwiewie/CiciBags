@@ -47,9 +47,12 @@
                         <div class="offer-tag">
                           <span>New</span>
                         </div>
-                        <a href="product-details.html">
-                          <img :src="product.image" :alt="product.alt" />
-                        </a>
+                        <router-link to="/Product/1">
+                          <a>
+                            <img :src="product.image" :alt="product.alt" />
+                          </a>
+                        </router-link>
+
                         <div class="item-action">
                           <a
                             class="view-plus"
@@ -71,7 +74,9 @@
                       </div>
                       <div class="item-content">
                         <h4>
-                          <a href="product-details.html">{{ product.name }}</a>
+                          <router-link to="/Product/1">
+                            <a>{{ product.name }}</a>
+                          </router-link>
                         </h4>
                         <div class="single-item-rating">
                           <i class="icofont-star"></i>
@@ -98,129 +103,6 @@
                 </div>
                 <!-- Row End -->
               </div>
-              <!-- #tab1 End -->
-              <div id="tab2" class="tab-pane fade">
-                <div class="row">
-                  <!--single item start-->
-                  <div
-                    v-for="product in TopProduct"
-                    :key="product.id"
-                    class="col-lg-3 col-md-4 col-6"
-                  >
-                    <div class="item-wrapper">
-                      <div class="item-img">
-                        <div class="offer-tag">
-                          <span>New</span>
-                        </div>
-                        <a href="product-details.html">
-                          <img :src="product.image" :alt="product.alt" />
-                        </a>
-                        <div class="item-action">
-                          <a
-                            class="view-plus"
-                            title="Quick View"
-                            data-bs-toggle="modal"
-                            data-bs-target="#product-window"
-                            href="#product-window"
-                          >
-                            <i class="icofont-ui-zoom-in"></i>
-                          </a>
-
-                          <a class="view-cart" title="Add To Cart" href="#">
-                            <i class="icofont-cart"></i>
-                          </a>
-                          <a class="view-reload" href="#">
-                            <i class="icofont-heart-alt"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="item-content">
-                        <h4>
-                          <a href="product-details.html">{{ product.name }}</a>
-                        </h4>
-                        <div class="single-item-rating">
-                          <i class="icofont-star"></i>
-                          <i class="icofont-star"></i>
-                          <i class="icofont-star"></i>
-                          <i class="icofont-star"></i>
-                          <i class="icofont-star"></i>
-                          <span>({{ product.star }})</span>
-                        </div>
-                        <div class="item-price">
-                          <span>${{ product.price }}</span>
-                          <span
-                            ><del>${{ product.actualPrice }}</del></span
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--single item end-->
-                </div>
-              </div>
-              <!-- #tab2 End -->
-
-              <div id="tab3" class="tab-pane fade">
-                <div class="row">
-                  <!--single item start-->
-                  <div
-                    v-for="product in BestProduct"
-                    :key="product.id"
-                    class="col-lg-3 col-md-4 col-6"
-                  >
-                    <div class="item-wrapper">
-                      <div class="item-img">
-                        <div class="offer-tag">
-                          <span>New</span>
-                        </div>
-                        <a href="product-details.html">
-                          <img :src="product.image" :alt="product.alt" />
-                        </a>
-                        <div class="item-action">
-                          <a
-                            class="view-plus"
-                            title="Quick View"
-                            data-bs-toggle="modal"
-                            data-bs-target="#product-window"
-                            href="#product-window"
-                          >
-                            <i class="icofont-ui-zoom-in"></i>
-                          </a>
-
-                          <a class="view-cart" title="Add To Cart" href="#">
-                            <i class="icofont-cart"></i>
-                          </a>
-                          <a class="view-reload" href="#">
-                            <i class="icofont-heart-alt"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="item-content">
-                        <h4>
-                          <a href="product-details.html">{{ product.name }}</a>
-                        </h4>
-                        <div class="single-item-rating">
-                          <i class="icofont-star"></i>
-                          <i class="icofont-star"></i>
-                          <i class="icofont-star"></i>
-                          <i class="icofont-star"></i>
-                          <i class="icofont-star"></i>
-                          <span>({{ product.star }})</span>
-                        </div>
-                        <div class="item-price">
-                          <span>${{ product.price }}</span>
-                          <span
-                            ><del>${{ product.actualPrice }}</del></span
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--single item end-->
-                </div>
-                <!-- Row End -->
-              </div>
-              <!-- #tab1 End -->
             </div>
             <!-- Grid & List Main Area End -->
           </div>
