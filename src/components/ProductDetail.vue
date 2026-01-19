@@ -23,9 +23,9 @@
                   <div id="thumb1" class="tab-pane fade show active">
                     <a
                       data-fancybox="single_images"
-                      src="/assets/img/product/1/1.jpg"
+                      src="././assets/img/product/1/1.jpg"
                       ><img
-                        src="/assets/img/product/1/1.jpg"
+                        src="././assets/img/product/1/1.jpg"
                         alt="product-view"
                     /></a>
                   </div>
@@ -34,9 +34,9 @@
                   <div id="thumb1" class="tab-pane fade show active">
                     <a
                       data-fancybox="single_images"
-                      src="/assets/img/product/1/1.jpg"
+                      src="./assets/img/product/1/1.jpg"
                       ><img
-                        src="/assets/img/product/1/1.jpg"
+                        src="./assets/img/product/1/1.jpg"
                         alt="product-view"
                     /></a>
                   </div>
@@ -45,9 +45,9 @@
                   <div id="thumb1" class="tab-pane fade show active">
                     <a
                       data-fancybox="single_images"
-                      src="/assets/img/product/1/1.jpg"
+                      src="./assets/img/product/1/1.jpg"
                       ><img
-                        src="/assets/img/product/1/1.jpg"
+                        src="./assets/img/product/1/1.jpg"
                         alt="product-view"
                     /></a>
                   </div>
@@ -68,19 +68,19 @@
               >
                 <a class="active" data-bs-toggle="tab" href="#thumb1"
                   ><img
-                    src="/assets/img/product/1/1.jpg"
+                    src="./assets/img/product/1/1.jpg"
                     alt="product-thumbnail"
                     style="width: 100%; height: auto; flex: 1"
                 /></a>
                 <a data-bs-toggle="tab" href="#thumb2"
                   ><img
-                    src="/assets/img/product/1/2.jpg"
+                    src="./assets/img/product/1/2.jpg"
                     alt="product-thumbnail"
                     style="width: 100%; height: auto; flex: 1"
                 /></a>
                 <a data-bs-toggle="tab" href="#thumb3"
                   ><img
-                    src="/assets/img/product/1/3.jpg"
+                    src="./assets/img/product/1/3.jpg"
                     alt="product-thumbnail"
                     style="width: 100%; height: auto; flex: 1"
                 /></a>
@@ -231,7 +231,7 @@
                     <span>New</span>
                   </div>
                   <a href="product-details.html">
-                    <img src="assets/img/product/1/1.jpg" alt="" />
+                    <img src="./assets/img/product/1/1.jpg" alt="" />
                   </a>
                   <div class="item-action">
                     <a
@@ -280,7 +280,7 @@
                     <span class="disc">25%</span>
                   </div>
                   <a href="product-details.html">
-                    <img src="assets/img/product/1/2.jpg" alt="" />
+                    <img src="./assets/img/product/1/2.jpg" alt="" />
                   </a>
                   <div class="item-action">
                     <a
@@ -326,7 +326,7 @@
               <div class="item-wrapper">
                 <div class="item-img">
                   <a href="product-details.html">
-                    <img src="assets/img/product/1/3.jpg" alt="" />
+                    <img src="./assets/img/product/1/3.jpg" alt="" />
                   </a>
                   <div class="item-action">
                     <a
@@ -375,7 +375,7 @@
                     <span>New</span>
                   </div>
                   <a href="product-details.html">
-                    <img src="assets/img/product/1/4.jpg" alt="" />
+                    <img src="./assets/img/product/1/4.jpg" alt="" />
                   </a>
                   <div class="item-action">
                     <a
