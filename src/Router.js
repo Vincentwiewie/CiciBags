@@ -10,7 +10,7 @@ import PolicyPurchase from "./Product/PolicyPurchase.vue";
 import AuthenticityPage from "./Product/AuthenticityPage.vue";
 import ProductDetail from "./components/ProductDetail.vue";
 import { createRouter, createWebHistory } from "vue-router";
-import url from "./config.js";
+import { url } from "./config.js";
 
 const routes = [
   { path: "/", component: Home },
