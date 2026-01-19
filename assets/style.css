@@ -5213,6 +5213,11 @@ p.footer-copyright.fc-left {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border-color: #e8e8e8;
   color: #777777;
+  /* make wishlist button the same size and centered like the add-to-cart button */
+  min-width: 150px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 .quatity-stock ul li .aqbw.single-wishlist:hover {
   background: #c29958;
@@ -5281,7 +5286,7 @@ p.footer-copyright.fc-left {
 .sidebar-style .quatity-stock ul li {
   margin-right: 30px;
 }
-.quatity-stock ul li .aqbw.default-btn {
+.quatity-stock ul li .default-btn {
   padding: 0 12px;
 }
 .single-related-product {
