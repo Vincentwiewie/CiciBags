@@ -2,4 +2,4 @@
 // export default url = "";
 
 // github pages
-export default url = "Cicibags";
+export const url = "Cicibags";
