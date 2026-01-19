@@ -13,16 +13,20 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   { path: "/", component: Home },
-  { path: "/Product", component: Product },
-  { path: "/Product/:id", component: ProductDetail },
-  { path: "/Cart", component: Cart },
-  { path: "/Checkout", component: CheckOut },
-  { path: "/Faq", component: Faq },
-  { path: "/Wishlist", component: WishListPage },
-  { path: "/About", component: AboutUs },
-  { path: "/PolicyTerms", component: PolicyPage },
-  { path: "/PurchasePolicy", component: PolicyPurchase },
-  { path: "/Authenticity", component: AuthenticityPage },
+  { path: "/Product", component: Product, name: "Product" },
+  { path: "/Product/:id", component: ProductDetail, name: "ProductDetail" },
+  { path: "/Cart", component: Cart, name: "Cart" },
+  { path: "/Checkout", component: CheckOut, name: "Checkout" },
+  { path: "/Faq", component: Faq, name: "Faq" },
+  { path: "/Wishlist", component: WishListPage, name: "Wishlist" },
+  { path: "/About", component: AboutUs, name: "About" },
+  { path: "/PolicyTerms", component: PolicyPage, name: "PolicyTerms" },
+  {
+    path: "/PurchasePolicy",
+    component: PolicyPurchase,
+    name: "PurchasePolicy",
+  },
+  { path: "/Authenticity", component: AuthenticityPage, name: "Authenticity" },
 ];
 
 const base = process.env.NODE_ENV === "production" ? "/CiciBags/" : "/";
